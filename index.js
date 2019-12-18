@@ -22,3 +22,9 @@ function fetchCharacter1031(){
   .then(resp=>resp.json())
   .then(json=>renderCharacters(json))
 }
+
+function renderCharacters(json){
+  const h2 = document.createElement('h2')
+  h2.innerHTML = `<h2>${book.name}</h2>`
+  main.appendChild(h2)
+}
