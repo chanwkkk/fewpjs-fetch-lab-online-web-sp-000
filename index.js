@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function fetchCharacter1031(){
   return fetch('https://anapioficeandfire.com/api/characters/1031')
   .then(resp=>resp.json())
-  .then(console.log(json))
+  .then(json=>console.log(json))
 }
 
 function renderCharacters(json){
