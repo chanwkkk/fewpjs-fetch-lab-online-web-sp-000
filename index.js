@@ -13,7 +13,7 @@
 //   })
 // }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('keydown', function() {
   //  fetchBooks()
   fetchCharacter1031()
 })
