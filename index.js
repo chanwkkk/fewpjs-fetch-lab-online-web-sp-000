@@ -19,10 +19,8 @@ document.addEventListener('keydown', function() {
 })
 
 function fetchCharacter1031(){
-  return (
-    fetch('https://anapioficeandfire.com/api/characters/1031', {
-    mode: 'no-cors'
-  }))
+  return fetch('https://anapioficeandfire.com/api/characters/1031', {mode: 'no-cors'}
+  )
   .then(resp=>resp.json())
   .then(json=>console.log(json))
 }
