@@ -15,7 +15,7 @@ function renderBooks(json) {
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
-  renderCharacters()
+  fetchCharacter1031()
 })
 
 function fetchCharacter1031(){
