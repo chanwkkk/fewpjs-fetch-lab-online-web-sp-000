@@ -25,6 +25,7 @@ function fetchCharacter1031(){
 }
 
 function renderCharacters(json){
+  debugger
   const h2 = document.createElement('h2')
   h2.innerHTML = `<h2>${json['name']}</h2>`
   main.appendChild(h2)
