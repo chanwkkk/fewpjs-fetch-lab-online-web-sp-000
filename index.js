@@ -14,8 +14,8 @@ function renderBooks(json) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-   fetchBooks()
-  // fetchCharacter1031()
+  //  fetchBooks()
+  fetchCharacter1031()
 })
 
 // function fetchCharacter1031(){
